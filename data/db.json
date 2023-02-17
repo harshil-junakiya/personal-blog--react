@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Ninja Warrior",
+      "body": "Ninja Warrior is a popular television show that originated in Japan and has since spread to numerous countries around the world. The show features contestants attempting to complete a series of physically challenging obstacle courses, with the goal of achieving the fastest time or reaching the farthest stage of the course. The obstacles are designed to test a variety of skills, including strength, balance, agility, and endurance. Contestants often come from diverse athletic backgrounds, such as gymnastics, rock climbing, and parkour, and may spend months or even years training specifically for the show. The popularity of Ninja Warrior has spawned a wider interest in obstacle course racing and has inspired many people to pursue fitness goals and overcome physical challenges.",
+      "author": "yoshi",
+      "id": 3
+    },
+    {
+      "title": "Let's Find out",
+      "body": "This is Cool",
+      "author": "yoshi",
+      "id": 5
+    },
+    {
+      "title": "Neww",
+      "body": "Nothing Much",
+      "author": "mario",
+      "id": 6
+    }
+  ]
+}

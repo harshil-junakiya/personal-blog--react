@@ -1,0 +1,145 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/*font-family: 'Raleway', sans-serif;
+*/
+
+*{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin : 0 auto;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.navbar h1{
+  color: rgb(214, 9, 9);
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover{
+  color: rgb(178, 63, 63);
+}
+
+.content{
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/*--Blog Preview / list --*/
+.blog-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(230, 7, 7, 0.1);
+}
+
+.blog-preview h2{
+  font-size: 25px;
+  color: rgb(129, 50, 50);
+  margin-bottom: 8px;
+}
+
+.blog-preview a{
+  text-decoration: none;
+}
+
+.blog-details h2{
+  font-size: 20px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.blog-details div{
+  margin: 20px 0;
+}
+
+.blog-details p{
+  line-height: 1.5;
+}
+
+.blog-details button{
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*-- create new blog form --*/
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.create label{
+  text-align: left;
+  display: block;
+}
+
+.create h2{
+  font-size: 20px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  display: block;
+  box-sizing: border-box;
+}
+
+.create textarea{
+  height: 180px;
+}
+
+.create button{
+  background: red;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found{
+  padding: 2%;
+  text-align: center;
+  margin: 10px;
+  font-size: 1.3rem;
+}
+
+.not-found p{
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+.not-found a:hover{
+  color: red;
+}
